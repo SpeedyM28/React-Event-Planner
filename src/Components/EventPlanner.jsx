@@ -55,10 +55,24 @@ const EventPlanner = () => {
                 </ul>
             </section>
             <section className="testimonials">
-
+                <h2>Testimonials</h2>
+                <div className="testimonial">
+                    <p>"Event Planner made organizing my wedding a breeze. Highly recommended!"</p>
+                    <p className="author">- Emily Johnson </p>
+                </div>
+                <div className="testimonial">
+                    <p>"I use Event Planner for all my corporate events. It saves me so much time and effort!"</p>
+                    <p className="author">- John Smith</p>
+                </div>
             </section>
-            <section className="contract">
-
+            <section className="contact">
+                <h2>Contact us</h2>
+                <form>
+                    <input type="text" placeholder="Name"/>
+                    <input type="email" placeholder="Email"/>
+                    <textarea placeholder="Message"></textarea>
+                    <button className="submit-button">Send</button>
+                </form>
             </section>
         </div>
     );
